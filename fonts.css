@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./source/fonts/Inter-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./source/fonts/Inter-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(./source/fonts/static/PlayfairDisplay-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(./source/fonts/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family:'Playfair Display' ;
+    src: url(./source/fonts/static/PlayfairDisplay-Italic.ttf);
+    font-weight: italic;
+}

@@ -1,0 +1,231 @@
+.root{
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 0;
+    background-color: #FFFAF0;
+    font-family: 'Inter';
+    font-size: 14px;
+}
+
+.logo{
+    width: 60px;
+    height: 41px;
+}
+
+.logo-text{
+    text-align: start;
+    word-wrap: break-all;
+    white-space: normal;
+    width: 200px;
+    margin: 5px 0 0 20px;
+}
+
+.logo-container{
+    display: flex;
+}
+
+.menu{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+}
+
+.menu__list{
+    display: flex;
+    margin-left:60px ;
+    text-decoration: none;
+}
+
+.menu__item{
+    margin-right: 40px;
+    list-style-type: none;
+}
+
+.want-button{
+    background-color: transparent;
+    border-radius: 50px;
+    border: solid black 1px;
+    width: 160px;
+    height: 44px;
+}
+
+.main{
+    margin-top: 36px;
+    position: relative;
+    height: 550px;
+    width: 100%;
+    left: 0;
+}
+
+.main-img{
+    width: 100%;
+    background-image: url(./source/Group\ 10.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: -5;
+}
+
+.main-circle{
+    position: absolute;
+    width: calc(546px/1.5);
+    height: calc(546px/1.5);
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.4;
+    z-index: -4;
+}
+
+.content-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-want-button{
+    background-color: white;
+}
+
+.main-header{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    color: white;
+    width: 550px;
+    font-size: 56px;
+}
+
+.second-header{
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    margin-left: 61px;
+    margin-top: 44px;
+}
+
+.list-of-teachers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.teacher-template{
+    column-gap: 54px;
+    display: grid;
+    grid-template-columns: 370px 600px;
+    margin-top: 81px;
+}
+
+.teacher-template-reverse{
+    display: grid;
+    grid-template-columns: 600px 370px;
+    margin-top: 81px;
+}
+
+.teacher-name{
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.teacher-education{
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.main-text{
+    width: 600px;
+    margin-top:27px;
+}
+
+.teacher-img{
+    height: 470px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.teacher-img-director{
+    height: 370px;
+    background-size: contain;
+    background-image: url(./source/директор.jpg);
+}
+
+.teacher-img-zamestitel{
+    background-image: url(./source/заместитель60.jpeg);
+    order: 1;
+}
+
+.teacher-img-noname{
+    background-image: url(./source/ноунейм.jpg);
+}
+
+.teacher-img-prepod{
+    order: 1;
+    background-image: url(./source/препод.jpg);
+}
+
+.map-section{
+    margin-top: 40px;
+display: flex;
+justify-content: center;
+}
+
+.footer{
+    background-color: #141414;
+    display: flex;
+    color: white;
+    font-family: 'Inter';
+    justify-content: space-between;
+    width: 100%;
+    margin: 66px auto 0;
+    padding-bottom: 21px;
+}
+
+.footer-header{
+    font-family: 'Playfair Display';
+    font-weight: italic;
+}
+
+.list-items{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-template{
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+}
+
+.items-group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.footer-item{
+    color: white;
+    margin: 9px 0 0;
+}
+
+.items-group:not(:first-child){
+    margin-top: 15px;
+}
+
+.input{
+    background-color: transparent;
+    border: white solid 1px;
+    padding: 10px;
+    color: white;
+    margin-top: 10px;
+}
